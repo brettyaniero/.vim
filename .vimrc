@@ -45,7 +45,6 @@ set expandtab
 " Key mappings
 map <F7> :bp<CR>
 map <F8> :bn<CR>
-:nmap ; :
 command W w
 noremap <Up> <Nop>
 noremap <Down> <Nop>
