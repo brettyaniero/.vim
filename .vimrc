@@ -41,6 +41,7 @@ set noundofile
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set autoindent
 
 " Key mappings
 map <F7> :bp<CR>
