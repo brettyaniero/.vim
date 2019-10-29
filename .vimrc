@@ -4,6 +4,8 @@ colorscheme ron
 set hidden
 syntax on
 
+filetype plugin on
+
 " Text searching
 set hlsearch
 set ignorecase
@@ -53,3 +55,4 @@ set tags=tags;
 map ff :w !xclip -i -sel -c<CR><CR>
 map mm :r !xclip -o -sel -c<CR>
 
+set pastetoggle=<F2>
